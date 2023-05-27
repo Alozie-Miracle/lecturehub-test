@@ -19,7 +19,6 @@ const NavbarTop = ({active, setActive, user}) => {
           viewBox="0 0 24 24"
           fill="currentColor"
           className="hidden sm:inline-flex h-[80%] overflow-hidden bg-red-400 rounded-full text-white p-2 cursor-pointer"
-          onClick={() => {}}
         >
           <path
             fillRule="evenodd"
