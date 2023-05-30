@@ -9,14 +9,14 @@ import { Link } from 'react-router-dom'
 const Feed = () => {
   return (
     <div className='xl:px-28 md:px-12 mb-12'>
-      <h2 className='text-xl sm:text-4xl mt-10 py-5 px-2'>Recommended Courses</h2>
+      <h2 className='text-xl sm:text-4xl mt-12 py-5 px-2'>Recommended Courses</h2>
       {/* add scrollable courses here */}
 
       <div className='flex overflow-x-scroll gap-2 p-2 cursor-pointer hide-scrollbar'>
         {recommendedCourses.map((course, index) => (
           <>
             <img key={index} className="h-24 w-38 sm:h-40 sm:w-72 object-cover rounded-md hover:scale-95" src={course.src} alt="recomended courses" />
-            <div className='bg-gray-50 rounded-md p-2 sm:p-5'>
+            <div className='bg-gray-50 rounded-md h-24 p-2 sm:p-5'>
               <h2 className='text-sm sm:text-xl'>{course.CoureName}</h2>
               <p className='text-xs sm:text-sm'>{course.InstructorName}</p>
               <div className='flex mt-2 justify-between gap-4'>
