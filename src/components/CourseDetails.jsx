@@ -20,7 +20,7 @@ const CourseDetails = ({img, instructorName, Students, Price, rating, CourseTitl
 
         <div className='border-b border-solid border-gray-100 mb-2'>
           <h2 className='text-2xl my-2' style={{fontFamily: 'cursive'}}>Description</h2>
-          <p className='sm:text-2xl mb-5 pb-5 flex justify-start items-start'>{couserDescription}</p>
+          <p className='text-lg mb-5 pb-5 flex justify-start items-start'>{couserDescription}</p>
         </div>
         
         <div className='flex flex-col sm:flex-row justify-between items-center sm:mt-10'>
