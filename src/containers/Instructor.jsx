@@ -109,7 +109,7 @@ const Instructor = ({active, setActive, user}) => {
 
       <div className='px-2 sm:px-7 xl:px-[16%] py-5'>
 
-        <p className='border-b border-solid border-gray-100 mb-5 pb-5'>
+        <p className='border-b border-solid border-gray-100 mt-6 mb-5 pb-5'>
           {instructor[0]?.about}
         </p>
         <h2 className='text-2xl sm:text-3xl my-2' style={{fontFamily:"cursive"}}>{instructor[0]?.name} Courses</h2>
