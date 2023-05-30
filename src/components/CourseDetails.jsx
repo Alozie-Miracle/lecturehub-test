@@ -10,12 +10,12 @@ const CourseDetails = ({img, instructorName, Students, Price, rating, CourseTitl
   return (
     <div className='sm:p-4 p-2 flex flex-col xl:flex-row mt-16 sm:mt-44 gap-5'>
       <img src={img} alt={`${CourseTitle} course`} 
-      className='rounded-xl sm:h-[450px] sm:w-full shadow-md'
+      className='rounded-xl sm:h-[450px] sm:w-full xl:w-1/2 shadow-md'
       />
       <div className='mx-2 sm:mx-5'>
         <div className='border-b border-solid border-gray-100 mb-2'>
           <h1 className='text-2xl sm:text-5xl' style={{fontFamily:"cursive"}}>{CourseTitle}</h1>
-          <h2 className='sm:text-2xl my-2 sm:my-5' style={{fontFamily:"cursive"}}>{instructorName}</h2>
+          <h2 className='sm:text-2xl my-2 sm:my-5 xl:p-2' style={{fontFamily:"cursive"}}>{instructorName}</h2>
         </div>
 
         <div className='border-b border-solid border-gray-100 mb-2'>
