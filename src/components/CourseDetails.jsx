@@ -15,7 +15,7 @@ const CourseDetails = ({img, instructorName, Students, Price, rating, CourseTitl
       <div className='mx-2 sm:mx-5'>
         <div className='border-b border-solid border-gray-100 mb-2'>
           <h1 className='text-2xl sm:text-5xl' style={{fontFamily:"cursive"}}>{CourseTitle}</h1>
-          <h2 className='sm:text-2xl my-2 sm:my-5 xl:p-2' style={{fontFamily:"cursive"}}>{instructorName}</h2>
+          <h2 className='sm:text-2xl my-2 sm:my-5 xl:p-2 flex flex-wrap' style={{fontFamily:"cursive"}}>{instructorName}</h2>
         </div>
 
         <div className='border-b border-solid border-gray-100 mb-2'>
