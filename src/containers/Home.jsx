@@ -20,12 +20,12 @@ const Home = ({user, active, setActive}) => {
   }, [location]);
 
   return (
-    <div className='bg-white h-[100%] overflow-x-hidden relative'>
-      {/* <NavbarTop active={active} setActive={setActive} user={user}/>
+    <div className='bg-white overflow-x-hidden relative' style={{overflowY:'hidden'}}>
+      <NavbarTop active={active} setActive={setActive} user={user}/>
       {active && (
         <Sidebar location={route} user={user} />
       )}
-      <NavbarBottom /> */}
+      <NavbarBottom />
       <TopBanner />
       <Feed />
       <BannerBottom />
