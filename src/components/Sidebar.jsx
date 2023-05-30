@@ -11,7 +11,7 @@ const Sidebar = ({user}) => {
   const activeStyle = 'text-sm my-2 bg-white w-full shadow-md shodow-sm border-r-2 border-solid border-red-400 p-2 flex items-center'
 
   return (
-    <div className='sm:hidden absolute z-40 top-8 sm:top-16 flex flex-col justify-around bg-gray-50 w-[70%] shadow-md px-2 pt-80 h-screen overflow-y-scroll'>
+    <div className='sm:hidden absolute z-40 top-0 sm:top-16 flex flex-col justify-around bg-gray-50 w-[70%] shadow-md pt-[180px] px-2 h-screen overflow-y-scroll'>
 
       <div className={`${user ? 'mt-52' : 'mt-24'}`}>
         {user ? (
